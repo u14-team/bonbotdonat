@@ -15,17 +15,9 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-color: #fe9b35;">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-					<div class="alert" role="alert" id="text"></div>
-					<row>
-						<a type="button" class="col-sm offset-sm-1 btn btn-light" href="https://u14-team.github.io/bonbotdonat/">Назад</a>
-					</row>
+					<div class="alert" role="alert alert-danger" id="text">Оплата не проведена.</div>
 			</div>
 		</div>
 	</div>
-	<script>
-		const urlParams = new URLSearchParams(window.location.search);
-		document.querySelector('#text').innerHTML = urlParams.get('text');
-		document.querySelector('#text').classList.add(`alert-${urlParams.get('type')}`);
-	</script>
 </body>
 </html>
